@@ -1,3 +1,4 @@
+// 취업 기원해요!!!
 package toy.shopping;
 
 import java.sql.Timestamp;
