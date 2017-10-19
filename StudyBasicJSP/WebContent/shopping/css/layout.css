@@ -1,0 +1,181 @@
+html, body {
+	width:100%;
+	height:auto;
+	background-size: 50%;
+}
+
+#wrap {
+	width:100%;
+}
+
+#header {
+	width:100%;
+	height:150px;
+	position:relative;
+}
+
+#container {
+	width:80%;
+	margin:0 auto;
+
+}
+
+#top_nav {
+	border-bottom: solid 1px #0B7903;
+	height:25px;
+	padding-bottom: 3px;
+}
+
+.tnv {
+	width:80%;
+	margin:0 auto;
+	padding:0;
+}
+
+ul.tnv li:first-child {
+	float:left;
+}
+
+.header_img {
+	margin-right: 5px;
+}
+
+.tnv li {
+	float:right; display: inline-block; padding:5px; margin-bottom: 2px;
+}
+
+.tnv li a{
+	 font-size:11px;
+	 color:#0B7903;
+}
+
+.tnv li a:hover{
+	 color:#41AF39;
+}
+
+.logo {
+	clear:both;
+	height:120px;
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.logo img {
+	margin-top: 25px;
+	width:90px;
+}
+
+.top_search {
+	width:250px;
+	height:26px;
+	background-image: url(../images/header/search_bar.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top:120px;right:200px;
+}
+
+input.t_sch {
+	color:#666;
+	background: transparent;
+	border:none;
+	width:180px;
+	height: 20px;
+	margin-left: -15px;
+	position: relative;
+	bottom: 10px;right:5px;
+}
+
+#main_nav {
+	width:100%;
+	height: 40px;
+	clear:both;
+	float: left;
+	background: url('../images/header/bg_lnb.png') 0 0 repeat-x;
+}
+
+.nav {
+	background: url('../images/header/bar.png')left 0 repeat-y;
+	width: 80%;
+	height: 40px;
+	margin:0 auto;
+	padding: 0;
+}
+
+.nav li {
+	float: left;
+	background: url('../images/header/bar.png')right 0 repeat-y;
+	width:16.6%;
+	text-align: center;
+	line-height: 250%;
+}
+
+.nav li a {
+	color:white;
+}
+
+.nav li:hover {
+	background: #22741C;
+}
+
+#snb {
+	padding:45px 0;
+	float:left;width:16.5%;
+	background-color: #41AF39;
+}
+
+#rMenu {
+	text-align: center;
+}
+
+.snb {
+	border-top: solid 1px #1DDB16;
+}
+
+.snb li a {display:block; padding:14px 10px; border-bottom: solid 1px white; color:white;}
+.snb li a:hover {background: #FF97DC;color:white;}
+
+
+.login_container {
+	float:left;
+	width:65%;
+	padding:10px;
+}
+
+.shopping_login {
+	weight:100%;
+}
+.shopping_id {
+	border:3px solid black;
+	width:500px;
+	height:150px;
+}
+
+.shopping_id table {
+	margin:0 auto;
+	position: relative;
+	top:38px;
+}
+.shopping_top {
+	margin-top:20px;
+	text-align: center;
+}
+.shopping_center {
+	width:500px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+.shopping_bottom {
+	text-align: right;
+	margin-top:10px;
+}
+
+.footer_wrap {
+	clear:both;
+}
+
+.footer li {
+	display: inline-block;
+}

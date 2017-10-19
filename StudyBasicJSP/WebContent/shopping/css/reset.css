@@ -1,0 +1,15 @@
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+ul,ol,li {
+	list-style-type: none;
+}
+
+header, nav, footer {display: block}
+
+* {
+	margin:0 0;
+}

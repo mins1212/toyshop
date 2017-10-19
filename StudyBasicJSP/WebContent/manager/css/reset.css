@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'NanumGothic';
+	src : url(../../etc/font/NanumGothic.ttf) format('truetype');
+}
+
+body {
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+
+ul,ol,li {
+	list-style-type: none;
+}
+
+header, nav, footer {display: block}
+
+* {
+	margin:0 0;
+}
+
