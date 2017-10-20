@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 <style type="text/css">
 	
+	<!--test-->
 	.buy_wrap {
 	width:80%;
 	margin:0 auto;
