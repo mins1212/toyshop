@@ -162,7 +162,7 @@
 						<%}%>
 				</table>
 				
-				<form action="buyPro.jsp" method="post">
+				<form action="paymentForm.jsp" method="post">
 				<h4>구매자 정보</h4>
 				<table class="buy_table">
 					<tr>

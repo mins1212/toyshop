@@ -142,6 +142,23 @@ public class BuyDBBean {
 		}
 	}
 	
+	
+	////////////////////사용자의 계좌번호를 구한다/////////////////////////
+	
+	public List getAccount(String buyer) throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String sql = "";
+		
+		try {
+			conn = getConnection();
+			
+			sql = "select buyer_account from buyer = ?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.
+		}
+	}
 	//////////////////사용자에 따른 판매량을 구한다/////////////////////////
 	/*public int getListCount(String id) throws Exception {
 		Connection conn = null;

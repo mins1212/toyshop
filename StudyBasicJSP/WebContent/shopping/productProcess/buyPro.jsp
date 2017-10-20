@@ -19,6 +19,7 @@
 		String deliveryAddress = request.getParameter("deliveryAddress");
 		String deliveryText = request.getParameter("deliveryText");
 		String buyer = (String)session.getAttribute("id");
+		String buyer_account = request.getParameter("account");
 		
 		CartDBBean cart = CartDBBean.getInstance();
 		List<CartDataBean> cartList = cart.getCart(buyer);
